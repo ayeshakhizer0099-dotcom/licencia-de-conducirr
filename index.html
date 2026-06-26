@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Primera Licencia de Conducir: Guía para Conductores Nuevos</title>
+
+<!-- INDEXING: allow Google to index and follow -->
+<meta name="robots" content="index, follow">
+
+<!-- CANONICAL: replace with your real Wasmer URL, e.g. https://your-app.wasmer.app/ -->
+<link rel="canonical" href="https://YOUR-APP.wasmer.app/" />
+
+<!-- GSC VERIFICATION: paste the meta tag from Google Search Console on the next line -->
+<!-- <meta name="google-site-verification" content="PASTE-YOUR-CODE-HERE" /> -->
+
+<meta name="description" content="Guía en español para conductores nuevos: del permiso de aprendiz a la primera licencia de conducir, con pasos, exámenes y consejos prácticos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f4f6f1;
+    --header:#1a2e1f;
+    --card:#ffffff;
+    --ink:#1e2a21;
+    --muted:#5a6b5e;
+    --forest:#2f7d4f;
+    --forest-deep:#216139;
+    --line:#dde6dc;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Inter",system-ui,sans-serif;font-size:18px;line-height:1.7;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px;}
+
+  header.site{background:var(--header);border-bottom:3px solid var(--forest);}
+  .bar{max-width:720px;margin:0 auto;padding:15px 22px;display:flex;align-items:center;gap:12px;}
+  .bar img{height:36px;width:auto;display:block;}
+
+  .hero{padding:56px 0 32px;border-bottom:1px solid var(--line);}
+  .eyebrow{font-family:"Inter",sans-serif;font-weight:600;letter-spacing:.16em;text-transform:uppercase;font-size:.74rem;color:var(--forest-deep);margin:0 0 14px;}
+  h1{font-family:"Spectral",serif;font-weight:700;line-height:1.1;font-size:clamp(2.1rem,6vw,3.3rem);margin:0 0 18px;letter-spacing:-.01em;color:var(--ink);}
+  .lede{font-size:1.16rem;color:var(--muted);margin:0;max-width:58ch;}
+
+  article{padding:32px 0 8px;}
+  h2{font-family:"Spectral",serif;font-weight:700;font-size:1.65rem;margin:42px 0 12px;color:var(--forest-deep);}
+  h3{font-family:"Inter",sans-serif;font-weight:600;font-size:1.06rem;margin:24px 0 4px;color:var(--ink);}
+  p{margin:0 0 18px;}
+  a{color:var(--forest-deep);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1.5px;}
+  a:hover{color:var(--ink);}
+
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0 26px;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;}
+  .card h3{margin:0 0 6px;color:var(--forest-deep);}
+  .card p{margin:0;font-size:.95rem;color:var(--muted);}
+  @media(max-width:560px){.grid{grid-template-columns:1fr;}}
+
+  .note{background:#e9f2ea;border:1px solid #cfe2d2;border-left:4px solid var(--forest);border-radius:10px;padding:20px 22px;margin:28px 0;}
+  .note p{margin:0;}
+
+  ul.list{margin:0 0 18px;padding-left:0;list-style:none;}
+  ul.list li{padding:0 0 10px 26px;position:relative;}
+  ul.list li::before{content:"";position:absolute;left:3px;top:10px;width:9px;height:9px;border-radius:50%;background:var(--forest);}
+
+  .cta{background:var(--header);color:#fff;border-radius:12px;padding:32px 26px;margin:42px 0 14px;text-align:center;}
+  .cta h2{color:#fff;margin:0 0 10px;}
+  .cta p{color:#acc2b2;margin:0 0 20px;}
+  .btn{display:inline-block;background:var(--forest);color:#fff;font-family:"Inter",sans-serif;font-weight:700;letter-spacing:.02em;padding:13px 30px;border-radius:8px;text-decoration:none;}
+  .btn:hover{background:#37935d;color:#fff;}
+
+  .related{border-top:1px solid var(--line);margin-top:34px;padding:22px 0;}
+  .related h3{margin:0 0 10px;color:var(--forest-deep);}
+  .related ul{margin:0;padding-left:20px;}
+  .related li{margin:0 0 8px;color:var(--muted);}
+
+  footer.site{border-top:1px solid var(--line);margin-top:18px;padding:26px 0 42px;color:var(--muted);font-size:.9rem;text-align:center;}
+  footer.site a{color:var(--muted);}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="bar"><img src="data:image/webp;base64,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" alt="DMV en Español"></div>
+</header>
+
+<div class="wrap">
+  <section class="hero">
+    <p class="eyebrow">Conductores Nuevos · DMV</p>
+    <h1>Tu Primera Licencia de Conducir</h1>
+    <p class="lede">Si nunca has manejado en Estados Unidos, el camino tiene etapas claras: permiso de aprendiz, práctica y examen. Aquí te guiamos por cada paso desde cero.</p>
+  </section>
+
+  <article>
+    <p>Para los conductores nuevos, sacar la <a href="https://dmvenespanol.com/" rel="noopener">licencia de conducir</a> no es un solo trámite, sino una secuencia. Casi todos los estados piden primero un permiso de aprendiz, un periodo de práctica y luego el examen práctico. Conocer el orden te ayuda a avanzar sin perder tiempo ni dinero.</p>
+
+    <h2>Las etapas para conductores nuevos</h2>
+    <div class="grid">
+      <div class="card"><h3>1. Permiso de aprendiz</h3><p>Apruebas el examen escrito y obtienes el permiso para practicar acompañado.</p></div>
+      <div class="card"><h3>2. Periodo de práctica</h3><p>Manejas con un adulto con licencia durante un tiempo mínimo según el estado.</p></div>
+      <div class="card"><h3>3. Examen práctico</h3><p>Demuestras tus habilidades al volante con un examinador.</p></div>
+      <div class="card"><h3>4. Licencia completa</h3><p>Apruebas, pagas la tarifa y recibes tu primera licencia.</p></div>
+    </div>
+
+    <h2>El permiso de aprendiz</h2>
+    <p>El permiso (learner's permit) es el primer paso real. Para obtenerlo apruebas un examen de conocimiento sobre señales y reglas de tránsito &mdash; disponible en español en muchos estados &mdash; y presentas tus documentos. Con el permiso ya puedes practicar, pero siempre acompañado de un conductor con licencia, según las reglas de tu estado.</p>
+
+    <div class="note">
+      <p><strong>Para jóvenes conductores:</strong> muchos estados aplican un sistema de licencia gradual (GDL) para menores de edad, con restricciones de horario y pasajeros que se van levantando con el tiempo y la experiencia.</p>
+    </div>
+
+    <h2>Consejos para aprobar</h2>
+    <p>Estudia el manual del conductor de tu estado &mdash; casi siempre hay versión en español &mdash; y haz exámenes de práctica antes del de conocimiento. Para el examen práctico, practica estacionarte, los cambios de carril y el uso de espejos. La mayoría de las personas que reprueban es por nervios o por detalles pequeños, no por no saber manejar.</p>
+
+    <div class="cta">
+      <h2>¿Vas a Sacar tu Primera Licencia?</h2>
+      <p>Consulta guías por estado para conductores nuevos, verificadas con fuentes oficiales.</p>
+      <a class="btn" href="https://dmvenespanol.com/" rel="noopener">Ver Guías para Conductores Nuevos</a>
+    </div>
+
+    <div class="related">
+      <h3>Más guías del DMV</h3>
+      <ul>
+        <li><a href="https://licencia-de-manejo.onrender.com/" rel="noopener">Licencia de Manejo</a> &mdash; exámenes y renovación.</li>
+        <li><a href="https://annaah.neocities.org/" rel="noopener">Documentos para el DMV</a> &mdash; qué llevar a tu trámite.</li>
+        <li><a href="https://citasdmvenespanol.bitbucket.io/" rel="noopener">Tiempos de Espera del DMV</a> &mdash; citas y oficinas.</li>
+      </ul>
+    </div>
+  </article>
+</div>
+
+<footer class="site">
+  <div class="wrap">
+    <p>Guía para conductores nuevos sobre la <a href="https://dmvenespanol.com/" rel="noopener">licencia de conducir</a> en español.</p>
+  </div>
+</footer>
+
+</body>
+</html>
